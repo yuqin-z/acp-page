@@ -31,6 +31,12 @@
       font-size: 16px;
     }
     
+    .button.small {
+      padding: 10px 20px;
+      font-size: 14px;
+      background-color: darkgrey;
+    }
+    
     .button.active, .button:hover {
       background-color: #5a5a5a;
     }
@@ -61,16 +67,11 @@
       float: left;
     }
     
-    #matrix-image-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    
     #matrix-image {
-      transform: rotate(90deg);
-      max-height: 800px;
-      width: auto;
+      width: 800px;
+      height: auto;
+      transform-origin: 50% 20%; /* 50% horizontally, 12.5% vertically */
+      transition: transform 0.5s ease;
     }
   </style>
 </head>
@@ -84,14 +85,14 @@
     <div class="button-container">
       <button id="tree-btn" class="button" onclick="showContent('tree')">Spatial Analysis Measures Tree</button>
       <button id="matrix-btn" class="button" onclick="showContent('matrix')">Analysis Measures vs Human-Centric Aspect Matrix</button>
+      <br>
+      <button id="rotate-btn" class="button small" onclick="rotateImage()" style="display:none;">Rotate</button>
     </div>
     <div id="tree" class="content active">
       <div id="vis"></div>
     </div>
     <div id="matrix" class="content">
-      <div id="matrix-image-container">
-        <img id="matrix-image" src="https://github.com/yuqin-z/acp-page/blob/main/Picture1.png?raw=true" alt="Analysis Measures vs Human-Centric Aspect Matrix">
-      </div>
+      <img id="matrix-image" src="https://github.com/yuqin-z/acp-page/blob/main/Picture1.png?raw=true" alt="Analysis Measures vs Human-Centric Aspect Matrix">
     </div>
   </div>
 
@@ -111,6 +112,23 @@
         button.classList.remove('active');
       });
       document.getElementById(contentId + '-btn').classList.add('active');
+
+      if (contentId === 'matrix') {
+        document.getElementById('rotate-btn').style.display = 'inline-block';
+      } else {
+        document.getElementById('rotate-btn').style.display = 'none';
+      }
+    }
+
+    function rotateImage() {
+      const img = document.getElementById('matrix-image');
+      let rotated = img.getAttribute('data-rotated') === 'true';
+      if (rotated) {
+        img.style.transform = 'rotate(0deg)';
+      } else {
+        img.style.transform = 'rotate(-90deg)';
+      }
+      img.setAttribute('data-rotated', !rotated);
     }
   </script>
 </body>
