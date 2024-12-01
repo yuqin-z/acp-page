@@ -1,0 +1,1334 @@
+[
+  {
+    "id": 1,
+    "name": [
+      "Spatial Analysis Methods"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Visibility Graph Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 3,
+    "name": "Isovist Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 4,
+    "name": "Space Syntax",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 5,
+    "name": "Agent-Based Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 6,
+    "name": "Axial Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 7,
+    "name": "Street Network Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 8,
+    "name": "Angular Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 9,
+    "name": "Visual Connectivity",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 10,
+    "name": "2D Isovist Analysis",
+    "definition": "",
+    "parent": 3
+  },
+  {
+    "id": 11,
+    "name": "2D Isovist Bubbles",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 12,
+    "name": "Isovist Radial",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 13,
+    "name": "Isovist Max/Min Radial",
+    "definition": "",
+    "parent": 12
+  },
+  {
+    "id": 14,
+    "name": "Isovist Moment Of Inertia",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 15,
+    "name": "Point First Moment",
+    "definition": "",
+    "parent": 14
+  },
+  {
+    "id": 16,
+    "name": "Point Second Moment",
+    "definition": "",
+    "parent": 14
+  },
+  {
+    "id": 17,
+    "name": "Isovist Area",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 18,
+    "name": "Topological Analysis",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 19,
+    "name": "Convex Space Analysis",
+    "definition": "",
+    "parent": 18
+  },
+  {
+    "id": 20,
+    "name": "Convex Space Analysis, Justified Graph Analysis",
+    "definition": "",
+    "parent": 18
+  },
+  {
+    "id": 21,
+    "name": "Step Depth",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 22,
+    "name": "Mean Depth",
+    "definition": "",
+    "parent": 21
+  },
+  {
+    "id": 23,
+    "name": "Total Depth",
+    "definition": "",
+    "parent": 21
+  },
+  {
+    "id": 24,
+    "name": "Harmonic Mean Depth",
+    "definition": "",
+    "parent": 21
+  },
+  {
+    "id": 25,
+    "name": "Entropy",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 26,
+    "name": "Relativised Entropy",
+    "definition": "",
+    "parent": 25
+  },
+  {
+    "id": 27,
+    "name": "Integration",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 28,
+    "name": "Integration [HH]",
+    "definition": "",
+    "parent": 27
+  },
+  {
+    "id": 29,
+    "name": "Integration [P-value]",
+    "definition": "",
+    "parent": 27
+  },
+  {
+    "id": 30,
+    "name": "Integration [Tekl]",
+    "definition": "",
+    "parent": 27
+  },
+  {
+    "id": 31,
+    "name": "Intensity",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 32,
+    "name": "Node Count",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 33,
+    "name": "Choice",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 34,
+    "name": "Connectivity",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 35,
+    "name": "Relative Asymmetry",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 36,
+    "name": "Real Relative Asymmetry",
+    "definition": "",
+    "parent": 35
+  },
+  {
+    "id": 37,
+    "name": "Control",
+    "definition": "",
+    "parent": 20
+  },
+  {
+    "id": 38,
+    "name": "Node-based Analysis",
+    "definition": "",
+    "parent": 18
+  },
+  {
+    "id": 39,
+    "name": "Closeness Centrality",
+    "definition": "",
+    "parent": 38
+  },
+  {
+    "id": 40,
+    "name": "Betweenness Centrality",
+    "definition": "",
+    "parent": 38
+  },
+  {
+    "id": 41,
+    "name": "Visibility Graph",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 42,
+    "name": "Metric Step Depth",
+    "definition": "",
+    "parent": 41
+  },
+  {
+    "id": 43,
+    "name": "Path-Finding",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 44,
+    "name": "Shortest Path Analysis",
+    "definition": "",
+    "parent": 43
+  },
+  {
+    "id": 45,
+    "name": "Visibility-based Shortest Path",
+    "definition": "",
+    "parent": 44
+  },
+  {
+    "id": 46,
+    "name": "Metric Step Shortest-Path Length",
+    "definition": "",
+    "parent": 45
+  },
+  {
+    "id": 47,
+    "name": "Metric Straight-Line Distance",
+    "definition": "",
+    "parent": 45
+  },
+  {
+    "id": 48,
+    "name": "Angular Step Depth",
+    "definition": "",
+    "parent": 8
+  },
+  {
+    "id": 49,
+    "name": "Angular Mean Depth",
+    "definition": "",
+    "parent": 48
+  },
+  {
+    "id": 50,
+    "name": "Angular Total Depth",
+    "definition": "",
+    "parent": 48
+  },
+  {
+    "id": 51,
+    "name": "Angular Node Count",
+    "definition": "",
+    "parent": 48
+  },
+  {
+    "id": 52,
+    "name": "Visual Step Depth",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 53,
+    "name": "Visual Mean Depth",
+    "definition": "",
+    "parent": 52
+  },
+  {
+    "id": 54,
+    "name": "Visual Max/Min Depth",
+    "definition": "",
+    "parent": 52
+  },
+  {
+    "id": 55,
+    "name": "Visual Total Depth",
+    "definition": "",
+    "parent": 52
+  },
+  {
+    "id": 56,
+    "name": "Visual Integration",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 57,
+    "name": "Visual Integration [HH]",
+    "definition": "",
+    "parent": 56
+  },
+  {
+    "id": 58,
+    "name": "Visual Integration [P-value]",
+    "definition": "",
+    "parent": 56
+  },
+  {
+    "id": 59,
+    "name": "Visual Integration [Tekl]",
+    "definition": "",
+    "parent": 56
+  },
+  {
+    "id": 60,
+    "name": "VGA Node Count",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 61,
+    "name": "Visual Entropy",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 62,
+    "name": "Visual Relativised Entropy",
+    "definition": "",
+    "parent": 61
+  },
+  {
+    "id": 63,
+    "name": "Visual Clustering Coefficient",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 64,
+    "name": "Visual Control",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 65,
+    "name": "Visual Controllability",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 66,
+    "name": "Visual Relative Asymmetry",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 67,
+    "name": "Visual Real Relative Asymmetry",
+    "definition": "",
+    "parent": 66
+  },
+  {
+    "id": 68,
+    "name": "Axial Connectivity",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 69,
+    "name": "Axial Line Length",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 70,
+    "name": "Axial Step Depth",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 71,
+    "name": "Axial Integration",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 72,
+    "name": "Axial Integration [HH]",
+    "definition": "",
+    "parent": 71
+  },
+  {
+    "id": 73,
+    "name": "Axial Integration [P-value]",
+    "definition": "",
+    "parent": 71
+  },
+  {
+    "id": 74,
+    "name": "Axial Integration [Tekl]",
+    "definition": "",
+    "parent": 71
+  },
+  {
+    "id": 75,
+    "name": "Axial Entropy",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 76,
+    "name": "Axial Mean Depth",
+    "definition": "",
+    "parent": 70
+  },
+  {
+    "id": 77,
+    "name": "Axial Node Count",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 78,
+    "name": "Axial Intensity",
+    "definition": "",
+    "parent": 6
+  },
+  {
+    "id": 79,
+    "name": "Segment Metric Analysis",
+    "definition": "",
+    "parent": 7
+  },
+  {
+    "id": 80,
+    "name": "Segment Connectivity",
+    "definition": "",
+    "parent": 79
+  },
+  {
+    "id": 81,
+    "name": "Segment Length",
+    "definition": "",
+    "parent": 79
+  },
+  {
+    "id": 82,
+    "name": "Metric Mean Depth",
+    "definition": "",
+    "parent": 42
+  },
+  {
+    "id": 83,
+    "name": "Metric Total Depth",
+    "definition": "",
+    "parent": 42
+  },
+  {
+    "id": 84,
+    "name": "Metric Mean Shortest-Path Distance",
+    "definition": "",
+    "parent": 42
+  },
+  {
+    "id": 85,
+    "name": "Metric Step Shortest-Path Angle",
+    "definition": "",
+    "parent": 42
+  },
+  {
+    "id": 86,
+    "name": "Metric Mean Shortest-Path Angle",
+    "definition": "",
+    "parent": 42
+  },
+  {
+    "id": 87,
+    "name": "Metric Choice",
+    "definition": "",
+    "parent": 79
+  },
+  {
+    "id": 88,
+    "name": "Metric Integration",
+    "definition": "",
+    "parent": 79
+  },
+  {
+    "id": 89,
+    "name": "Angular Connectivity",
+    "definition": "",
+    "parent": 8
+  },
+  {
+    "id": 90,
+    "name": "Angular Integration",
+    "definition": "",
+    "parent": 8
+  },
+  {
+    "id": 91,
+    "name": "Tulip Analysis",
+    "definition": "",
+    "parent": 7
+  },
+  {
+    "id": 92,
+    "name": "Tn Integration",
+    "definition": "",
+    "parent": 91
+  },
+  {
+    "id": 93,
+    "name": "Tn Node Count",
+    "definition": "",
+    "parent": 91
+  },
+  {
+    "id": 94,
+    "name": "Tn Total Depth",
+    "definition": "",
+    "parent": 91
+  },
+  {
+    "id": 95,
+    "name": "Shortest FloydWarshal",
+    "definition": "",
+    "parent": 44
+  },
+  {
+    "id": 96,
+    "name": "Shortest Dijkstra",
+    "definition": "",
+    "parent": 44
+  },
+  {
+    "id": 97,
+    "name": "Closeness Centrality Weighted",
+    "definition": "",
+    "parent": 39
+  },
+  {
+    "id": 98,
+    "name": "Betweenness Centrality Weighted",
+    "definition": "",
+    "parent": 40
+  },
+  {
+    "id": 99,
+    "name": "Straightness Centrality",
+    "definition": "",
+    "parent": 79
+  },
+  {
+    "id": 100,
+    "name": "Accessibility Measure",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 101,
+    "name": "Gravity Index",
+    "definition": "",
+    "parent": 100
+  },
+  {
+    "id": 102,
+    "name": "Degree Centrality",
+    "definition": "",
+    "parent": 79
+  },
+  {
+    "id": 103,
+    "name": "Distance Weighted Area",
+    "definition": "",
+    "parent": 17
+  },
+  {
+    "id": 104,
+    "name": "Isovist Perimeter",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 105,
+    "name": "Isovist Compactness",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 106,
+    "name": "Isovist Circularity",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 107,
+    "name": "Isovist Occlusivity",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 108,
+    "name": "Isovist Convex Deficiency",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 109,
+    "name": "Isovist Maximum Radial",
+    "definition": "",
+    "parent": 12
+  },
+  {
+    "id": 110,
+    "name": "Isovist Minimum Radial",
+    "definition": "",
+    "parent": 12
+  },
+  {
+    "id": 111,
+    "name": "Isovist Mean Radial",
+    "definition": "",
+    "parent": 12
+  },
+  {
+    "id": 112,
+    "name": "Radial Standard Deviation",
+    "definition": "",
+    "parent": 12
+  },
+  {
+    "id": 113,
+    "name": "Radial Variance",
+    "definition": "",
+    "parent": 12
+  },
+  {
+    "id": 114,
+    "name": "Isovist Skewness",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 115,
+    "name": "Isovist Dispersion",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 116,
+    "name": "Isovist Elongation",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 117,
+    "name": "Isovist Drift",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 118,
+    "name": "Drift Magnitude",
+    "definition": "",
+    "parent": 117
+  },
+  {
+    "id": 119,
+    "name": "Dift Angle",
+    "definition": "",
+    "parent": 117
+  },
+  {
+    "id": 120,
+    "name": "Directed Visibility",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 121,
+    "name": "Co-Visibility",
+    "definition": "",
+    "parent": 10
+  },
+  {
+    "id": 122,
+    "name": "Overt Control",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 123,
+    "name": "Covert Control",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 124,
+    "name": "Counterpoint",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 125,
+    "name": "Visual Choice",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 126,
+    "name": "Justified Graph Analysis",
+    "definition": "",
+    "parent": 18
+  },
+  {
+    "id": 127,
+    "name": "Depth",
+    "definition": "",
+    "parent": 126
+  },
+  {
+    "id": 128,
+    "name": "Difference Factor ",
+    "definition": "",
+    "parent": 126
+  },
+  {
+    "id": 129,
+    "name": "Random Walk Value",
+    "definition": "",
+    "parent": 126
+  },
+  {
+    "id": 130,
+    "name": "3D Isovist Analysis",
+    "definition": "",
+    "parent": 3
+  },
+  {
+    "id": 131,
+    "name": "3D Isovist Bubbles",
+    "definition": "",
+    "parent": 130
+  },
+  {
+    "id": 132,
+    "name": "Dimension",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 133,
+    "name": "Building Dimension",
+    "definition": "",
+    "parent": 132
+  },
+  {
+    "id": 134,
+    "name": "Longest Axis Length",
+    "definition": "",
+    "parent": 133
+  },
+  {
+    "id": 135,
+    "name": "Floor Area",
+    "definition": "",
+    "parent": 133
+  },
+  {
+    "id": 136,
+    "name": "Floor Area Ratio",
+    "definition": "",
+    "parent": 135
+  },
+  {
+    "id": 137,
+    "name": "Height",
+    "definition": "",
+    "parent": 133
+  },
+  {
+    "id": 138,
+    "name": "Courtyard Area",
+    "definition": "",
+    "parent": 133
+  },
+  {
+    "id": 139,
+    "name": "Courtuard Area Ratio",
+    "definition": "",
+    "parent": 138
+  },
+  {
+    "id": 140,
+    "name": "Perimeter Wall",
+    "definition": "",
+    "parent": 133
+  },
+  {
+    "id": 141,
+    "name": "Weighted Character",
+    "definition": "",
+    "parent": 133
+  },
+  {
+    "id": 142,
+    "name": "Street Profile",
+    "definition": "",
+    "parent": 132
+  },
+  {
+    "id": 143,
+    "name": "Openness",
+    "definition": "",
+    "parent": 142
+  },
+  {
+    "id": 144,
+    "name": "Width",
+    "definition": "",
+    "parent": 142
+  },
+  {
+    "id": 145,
+    "name": "Width Deviation",
+    "definition": "",
+    "parent": 144
+  },
+  {
+    "id": 146,
+    "name": "Height Deviation",
+    "definition": "",
+    "parent": 137
+  },
+  {
+    "id": 147,
+    "name": "Height to Width Ratio",
+    "definition": "",
+    "parent": 142
+  },
+  {
+    "id": 148,
+    "name": "Shapes",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 149,
+    "name": "Building Shapes",
+    "definition": "",
+    "parent": 148
+  },
+  {
+    "id": 150,
+    "name": "Compactness",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 151,
+    "name": "Circular Compactness",
+    "definition": "",
+    "parent": 150
+  },
+  {
+    "id": 152,
+    "name": "Square Compactness",
+    "definition": "",
+    "parent": 150
+  },
+  {
+    "id": 153,
+    "name": "Compactness Weighted Axis",
+    "definition": "",
+    "parent": 150
+  },
+  {
+    "id": 154,
+    "name": "Centroid-Corner Distance",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 155,
+    "name": "Elongation ",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 156,
+    "name": "Squareness\u00a0",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 157,
+    "name": "Form Factor",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 158,
+    "name": "Convexity",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 159,
+    "name": "Corners",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 160,
+    "name": "Courtyard",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 161,
+    "name": "Courtyard Index",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 162,
+    "name": "Equivalent Rectangular Index",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 163,
+    "name": "Rectangularity",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 164,
+    "name": "Fractal Dimension",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 165,
+    "name": "Shape Index",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 166,
+    "name": "Fa\u00e7ade Ratio",
+    "definition": "",
+    "parent": 149
+  },
+  {
+    "id": 167,
+    "name": "Network Shapes",
+    "definition": "",
+    "parent": 148
+  },
+  {
+    "id": 168,
+    "name": "Linearity ",
+    "definition": "",
+    "parent": 167
+  },
+  {
+    "id": 169,
+    "name": "Spatial Arrangement",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 170,
+    "name": "Directional Analysis",
+    "definition": "",
+    "parent": 169
+  },
+  {
+    "id": 171,
+    "name": "Alignment",
+    "definition": "",
+    "parent": 170
+  },
+  {
+    "id": 172,
+    "name": "Cell Alignment",
+    "definition": "",
+    "parent": 171
+  },
+  {
+    "id": 173,
+    "name": "Street Alignment",
+    "definition": "",
+    "parent": 171
+  },
+  {
+    "id": 174,
+    "name": "Orientation",
+    "definition": "",
+    "parent": 171
+  },
+  {
+    "id": 175,
+    "name": "Geometric Adjacency",
+    "definition": "",
+    "parent": 132
+  },
+  {
+    "id": 176,
+    "name": "Building Adjacency",
+    "definition": "",
+    "parent": 175
+  },
+  {
+    "id": 177,
+    "name": "Interbuilding Distance",
+    "definition": "",
+    "parent": 175
+  },
+  {
+    "id": 178,
+    "name": "Mean Interbuilding Distance",
+    "definition": "",
+    "parent": 177
+  },
+  {
+    "id": 179,
+    "name": "Share Walls Length",
+    "definition": "",
+    "parent": 175
+  },
+  {
+    "id": 180,
+    "name": "Node-based Aanalysis",
+    "definition": "",
+    "parent": 18
+  },
+  {
+    "id": 181,
+    "name": "Meshedness",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 182,
+    "name": "Node Intersection Type",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 183,
+    "name": "Intersection Type Proportion",
+    "definition": "",
+    "parent": 182
+  },
+  {
+    "id": 184,
+    "name": "Cyclomatic Complexity",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 185,
+    "name": "Clustering",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 186,
+    "name": "Node Degree",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 187,
+    "name": "Mean Node Degree",
+    "definition": "",
+    "parent": 186
+  },
+  {
+    "id": 188,
+    "name": "Mean Node Distance",
+    "definition": "",
+    "parent": 186
+  },
+  {
+    "id": 189,
+    "name": "Node Density",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 190,
+    "name": "Edge-node ratio",
+    "definition": "",
+    "parent": 180
+  },
+  {
+    "id": 191,
+    "name": "Sinuosity",
+    "definition": "",
+    "parent": 167
+  },
+  {
+    "id": 192,
+    "name": "Bearing",
+    "definition": "",
+    "parent": 171
+  },
+  {
+    "id": 193,
+    "name": "Reach Analysis",
+    "definition": "",
+    "parent": 7
+  },
+  {
+    "id": 194,
+    "name": "Metric Reach",
+    "definition": "",
+    "parent": 193
+  },
+  {
+    "id": 195,
+    "name": "Single-source Metric Reach",
+    "definition": "",
+    "parent": 194
+  },
+  {
+    "id": 196,
+    "name": "All-lines Metric Reach",
+    "definition": "",
+    "parent": 194
+  },
+  {
+    "id": 197,
+    "name": "Directional Reach",
+    "definition": "",
+    "parent": 193
+  },
+  {
+    "id": 198,
+    "name": "Single-source Directional Reach",
+    "definition": "",
+    "parent": 197
+  },
+  {
+    "id": 199,
+    "name": "All-lines Directional Reach",
+    "definition": "",
+    "parent": 197
+  },
+  {
+    "id": 200,
+    "name": "Multiple-source Directional Reach",
+    "definition": "",
+    "parent": 197
+  },
+  {
+    "id": 201,
+    "name": "Directional-Metric Reach",
+    "definition": "",
+    "parent": 193
+  },
+  {
+    "id": 202,
+    "name": "Single-source DM Reach",
+    "definition": "",
+    "parent": 201
+  },
+  {
+    "id": 203,
+    "name": "All-lines DM Reach",
+    "definition": "",
+    "parent": 201
+  },
+  {
+    "id": 204,
+    "name": "Directional Distance per Length",
+    "definition": "",
+    "parent": 193
+  },
+  {
+    "id": 205,
+    "name": "Single-source DDL",
+    "definition": "",
+    "parent": 204
+  },
+  {
+    "id": 206,
+    "name": "All-lines DDL",
+    "definition": "",
+    "parent": 204
+  },
+  {
+    "id": 207,
+    "name": "Intervisibility",
+    "definition": "",
+    "parent": 1
+  },
+  {
+    "id": 208,
+    "name": "Targeted Visibility",
+    "definition": "",
+    "parent": 207
+  },
+  {
+    "id": 209,
+    "name": "Binary Visibility Matrix",
+    "definition": "",
+    "parent": 208
+  },
+  {
+    "id": 210,
+    "name": "Distance to View Point",
+    "definition": "",
+    "parent": 207
+  },
+  {
+    "id": 211,
+    "name": "Surface Visibility",
+    "definition": "",
+    "parent": 207
+  },
+  {
+    "id": 212,
+    "name": "Sum Visibility ",
+    "definition": "",
+    "parent": 211
+  },
+  {
+    "id": 213,
+    "name": "Medium Visibility",
+    "definition": "",
+    "parent": 211
+  },
+  {
+    "id": 214,
+    "name": "Max/Min Visibility",
+    "definition": "",
+    "parent": 211
+  },
+  {
+    "id": 215,
+    "name": "Variance Visibility",
+    "definition": "",
+    "parent": 211
+  },
+  {
+    "id": 216,
+    "name": "Standard Deviation Visibility",
+    "definition": "",
+    "parent": 211
+  },
+  {
+    "id": 217,
+    "name": "Volume Visibility",
+    "definition": "",
+    "parent": 207
+  },
+  {
+    "id": 218,
+    "name": "Median Visibility",
+    "definition": "",
+    "parent": 217
+  },
+  {
+    "id": 219,
+    "name": "Line of Sight",
+    "definition": "",
+    "parent": 207
+  },
+  {
+    "id": 220,
+    "name": "Opacity-Adjusted Visibility",
+    "definition": "",
+    "parent": 207
+  },
+  {
+    "id": 221,
+    "name": "View Space",
+    "definition": "",
+    "parent": 2
+  },
+  {
+    "id": 222,
+    "name": "Obstacle Space",
+    "definition": "",
+    "parent": 2
+  }
+]
